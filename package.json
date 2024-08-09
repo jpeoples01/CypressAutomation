@@ -1,0 +1,34 @@
+{
+  "name": "udemycypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headTest": "npx cypress run --headed",
+    "chromeTest": "npx cypress run --browser chrome",
+    "recordDashboard": "npx cypress run --record --key dc8a051d-1c7e-46b9-a8dd-b2e1a8a78a78"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1",
+    "cypress-sql-server": "^1.0.0",
+    "mocha": "^10.1.0",
+    "cypress-mochawesome-reporter" :"^3.8.2",
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "neat-csv": "5.1.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@cypress/browserify-preprocessor": "latest",
+    "convert-excel-to-json": "^1.7.0",
+    "cypress-iframe": "^1.0.1",
+    "exceljs": "^4.4.0"
+  }
+}}
