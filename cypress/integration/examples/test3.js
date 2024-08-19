@@ -1,5 +1,3 @@
-
-
 describe("My third test suite", function () {
   it("My third test", function () {
     cy.visit(Cypress.env('url')+"/AutomationPractice/");
