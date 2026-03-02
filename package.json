@@ -14,21 +14,30 @@
       "enabled": true,
       "output": "cypress/cucumberReports/results.json"
     },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^13.8.1",
-    "cypress-sql-server": "^1.0.0",
-    "mocha": "^10.1.0",
-    "cypress-mochawesome-reporter" :"^3.8.2",
-    "multiple-cucumber-html-reporter": "^3.0.1",
-    "neat-csv": "5.1.0"
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "cypress": "^13.8.1",
+      "cypress-sql-server": "^1.0.0",
+      "mocha": "^10.1.0",
+      "cypress-mochawesome-reporter": "^3.8.2",
+      "multiple-cucumber-html-reporter": "^3.0.1",
+      "neat-csv": "5.1.0"
+    },
+    "dependencies": {
+      "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+      "@cypress/browserify-preprocessor": "latest",
+      "convert-excel-to-json": "^1.7.0",
+      "cypress-iframe": "^1.0.1",
+      "exceljs": "^4.4.0"
+    }
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
-    "@cypress/browserify-preprocessor": "latest",
-    "convert-excel-to-json": "^1.7.0",
-    "cypress-iframe": "^1.0.1",
-    "exceljs": "^4.4.0"
+    "cypress": "^15.11.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress-mochawesome-reporter": "^4.0.2"
   }
-}}
+}
